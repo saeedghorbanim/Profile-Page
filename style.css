@@ -26,7 +26,6 @@
     align-items: center;
     gap: 1.5em;
     color: white;
-
 }
 
 button {
@@ -37,7 +36,6 @@ button {
 }
 
 .entire_page {
-    background-color:orange; 
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -48,37 +46,34 @@ button {
 }
 
 .left_side {
-    flex: 2;
-    /* background-color: red; */
-    height: 632px;
     /* width already decided based on flex 2 */
+    flex: 2;
+    height: 632px;
 }
 
 
 
 #education {
+    /* width already decided based on flex 2 of parent */
     background-color: purple;
     height: 182px;
-    /* width already decided based on flex 2 of parent */
     margin-top: 40px;
 }
 
 .right_side {
-    flex: 1;
-    /* background-color: orange; */
-    height: 632px;
     /* width already decided based on flex 1*/
+    flex: 1;
+    height: 632px;
 }
 
 #connection_req {
     background-color: white;
     height: 207px;
     margin-top: 30px;
-    outline: red;
-    /* outline border is not working, need to figure out why*/
+    border: black 2px solid;
+    /* outline border is not working, need to figure out why. fixed it*/
     /* width already decided based on flex 1 of parent */
     /* height needs to add up to parent height (right side) with #your_connect */
-   
 }
 
 #top {
@@ -93,17 +88,14 @@ button {
     font-size: 18px;
     color:black;
     background-color:grey;
-    /* display: block; */
     border-radius: 63%;
-    /* margin: 10px; */
-    /* padding: 9px; */
     text-align: center;
     width: 32px;
     height: 32px;
     border: 0px;
 }
 
-#top_request {
+.top_request {
     color: grey;
 }
 
@@ -137,16 +129,13 @@ button {
 }
 
 #your_connect {
-
-    background-color: lightgreen;
     height: 345px;
     margin-top: 35px;
     margin-bottom: 15px;
     flex-direction: column;
-
+    display: flex;
     /* width already decided based on flex 1 of parent */
     /* height needs to add up to parent height (right side) with #coonect_req */
-
 }
 
 #top2 {
@@ -168,15 +157,12 @@ button {
     border: 0px;
 }
 
-#top_request2{
-    color: grey;
-}
-
 #middle {
     height: 260px;
-    background-color: maroon;
-    /* margin-top: 0px; */
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: black 2px solid;
 }
 
 .user {
@@ -184,32 +170,24 @@ button {
     align-items: center;
     margin-top: 20px;
     justify-content:space-evenly;
+    padding-left: 20px;
+    margin-bottom: -5px;
+    gap: 1.5em;
 }
-
 
 #bottom2 {
     align-items: center;
-    margin: 0 auto;
-    background-color: darksalmon;
-    height: 30px
-}
-
-
-a {
+    display: flex;
     height: 30px;
+    border: black 2px solid;
 }
 
 
-
-
-
-
-
-
-
-
-
-
+#bottom2 a{
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 22px;
+}
 
 #main_card {
     margin: 0 auto;
@@ -221,14 +199,12 @@ a {
 }
 
 #header {
-    /* width: inherit; */
     height: 120px;
     background-color: green;
     
 }
 
 .card {
-    /* width: inherit; */
     height: 450px;
     margin-left: 30px; 
     position: absolute;
@@ -241,7 +217,7 @@ a {
     top: 65px;
 }
 
-h1{
+#pro_name{
     margin-top: 75px;
 }
 
@@ -273,19 +249,26 @@ h1{
     margin-top: 10px;
 }   
 
-
-
-
-
-
-
 #education {
     margin-top: 30px;
+    align-items: center;
+    border: black 2px solid;
 }
 
 #topbar {
-    height: 20px;
-    width: 30px;
+    height: 45px;
     background-color: grey;
+    border: black 1px solid;
+    align-items: center; 
+}
 
+#topbar h2 {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#writing {
+    margin-left: 15px;
+    margin-top: 10px;
+    line-height: 1.5;
 }
