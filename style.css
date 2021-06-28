@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.entire_nav {
+    background-color: black;
+    min-height: 80px;     
+}
+
+.nav_bar {
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    min-height: 80px; 
+    width: 900px;
+}
+
+
+#profile_bar {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 1.5em;
+    color: white;
+
+}
+
+button {
+    width: 80px;
+    height: 25px;
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.entire_page {
+    background-color:orange; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    min-height: 80px;
+    width: 900px;
+    gap: 2em;
+}
+
+.left_side {
+    flex: 2;
+    /* background-color: red; */
+    height: 632px;
+    /* width already decided based on flex 2 */
+}
+
+
+
+#education {
+    background-color: purple;
+    height: 182px;
+    /* width already decided based on flex 2 of parent */
+    margin-top: 40px;
+}
+
+.right_side {
+    flex: 1;
+    /* background-color: orange; */
+    height: 632px;
+    /* width already decided based on flex 1*/
+}
+
+#connection_req {
+    background-color: white;
+    height: 207px;
+    margin-top: 30px;
+    outline: red;
+    /* outline border is not working, need to figure out why*/
+    /* width already decided based on flex 1 of parent */
+    /* height needs to add up to parent height (right side) with #your_connect */
+   
+}
+
+#top {
+    background-color:darkslategray;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+#plus_button {
+    font-size: 18px;
+    color:black;
+    background-color:grey;
+    /* display: block; */
+    border-radius: 63%;
+    /* margin: 10px; */
+    /* padding: 9px; */
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border: 0px;
+}
+
+#top_request {
+    color: grey;
+}
+
+
+
+.conn_req_user {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content:space-between;
+    margin-left: 8px;
+}
+
+
+.pic {
+    height: 45px;
+    width: 45px;
+}
+
+.ok_button {
+    width: 40px;
+    margin-left: 60px;
+    height:30px;
+
+}
+
+.x_button {
+    width: 40px;
+    height:30px;
+    margin-left: 5px;
+}
+
+#your_connect {
+
+    background-color: lightgreen;
+    height: 345px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    flex-direction: column;
+
+    /* width already decided based on flex 1 of parent */
+    /* height needs to add up to parent height (right side) with #coonect_req */
+
+}
+
+#top2 {
+    background-color:darkslategray;
+    display: flex;
+    height: 50px;
+    align-items: center; 
+    justify-content: space-evenly; 
+}
+
+#plus_button2{
+    font-size: 18px;
+    color:black;
+    background-color:grey;
+    border-radius: 63%;
+    text-align: center;
+    width: 50px;
+    height: 32px;
+    border: 0px;
+}
+
+#top_request2{
+    color: grey;
+}
+
+#middle {
+    height: 260px;
+    background-color: maroon;
+    /* margin-top: 0px; */
+
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content:space-evenly;
+}
+
+
+#bottom2 {
+    align-items: center;
+    margin: 0 auto;
+    background-color: darksalmon;
+    height: 30px
+}
+
+
+a {
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main_card {
+    margin: 0 auto;
+    height: 350px; 
+    outline: black solid;
+    margin-top: 35px; 
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    /* width: inherit; */
+    height: 120px;
+    background-color: green;
+    
+}
+
+.card {
+    /* width: inherit; */
+    height: 450px;
+    margin-left: 30px; 
+    position: absolute;
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+    position:relative;
+    top: 65px;
+}
+
+h1{
+    margin-top: 75px;
+}
+
+#gear {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+#marker {
+    width: 12px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+
+#loc {
+    display: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#link {
+    display: flex;
+    margin-top: 8px;
+}
+
+#text {
+    margin-top: 10px;
+}   
+
+
+
+
+
+
+
+#education {
+    margin-top: 30px;
+}
+
+#topbar {
+    height: 20px;
+    width: 30px;
+    background-color: grey;
+
+}
